@@ -25,3 +25,8 @@ html {
   display: grid; /* con estas 2 propiedades centramos nuestro contenido */
   place-items: center;
 }
+.main { 
+  display: grid;
+  grid-template-rows: auto 1fr auto; /* este funciona como un Maring: 0 auto */
+  width: 375px;   /* Este es el width que nos pidieron */
+}
