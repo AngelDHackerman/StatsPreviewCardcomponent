@@ -15,6 +15,7 @@ html {
   --Very-dark-blue: hsl(233, 47%, 7%);
   --Dark-desaturated-blue : hsl(244, 38%, 16%);
   --Soft-violet : hsl(277, 64%, 61%);
+  --Soft-violet-transparent : hsl(277, 64%, 61%, 0.7);
   --White: hsl(0, 0%, 100%);
   --Slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
   --Slightly-transparent-white : hsla(0, 0%, 100%, 0.6);
@@ -26,7 +27,26 @@ html {
   place-items: center;
 }
 .main { 
-  display: grid;
-  grid-template-rows: auto 1fr auto; /* este funciona como un Maring: 0 auto */
+  display: flex;
+  flex-direction: column;
   width: 375px;   /* Este es el width que nos pidieron */
+  height: 75vh;
+}
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.header img { 
+  width: 90%;
+  height: 250px;
+  border-radius: 20px 20px 0 0;
+}
+.header .header-overlay { 
+  position: absolute;
+  width: 90%;
+  height: 250px;
+  background: var(--Soft-violet-transparent);
+  border-radius: 20px 20px 0 0;
 }
