@@ -30,8 +30,10 @@ html {
   display: flex;
   flex-direction: column;
   width: 375px;   /* Este es el width que nos pidieron */
-  height: 75vh;
+  height: 100vh;
   align-items: center;
+  justify-content: center;
+  background: var(--Very-dark-blue);
 }
 .header {
   width: 100%;
@@ -57,4 +59,7 @@ html {
   align-items: center;
   width: 90%;
   justify-content: center;
+  background: var(--Dark-desaturated-blue);
+  font-size: 1.5rem;
+  border-radius: 0 0 20px 20px;
 }
