@@ -19,3 +19,9 @@ html {
   --Slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
   --Slightly-transparent-white : hsla(0, 0%, 100%, 0.6);
 }
+.container {
+  width: 100%;
+  height: 100vh;
+  display: grid; /* con estas 2 propiedades centramos nuestro contenido */
+  place-items: center;
+}
