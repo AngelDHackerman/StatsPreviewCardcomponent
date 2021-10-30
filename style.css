@@ -29,7 +29,7 @@ html {
   display: flex;
   flex-direction: column;
   width: 375px;   /* Este es el width que nos pidieron */
-  height: 100vh;
+  height: 1000px;
   align-items: center;
   justify-content: center;
   background: var(--Very-dark-blue);
@@ -94,4 +94,9 @@ html {
 }
 .main-stats--details p:nth-child(2) { 
   color: var(--Slightly-transparent-white);
+}
+
+
+@media (min-width: 375px) { 
+
 }
