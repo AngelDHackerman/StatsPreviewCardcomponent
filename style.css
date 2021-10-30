@@ -98,5 +98,27 @@ html {
 
 
 @media (min-width: 375px) { 
-
+  .container { 
+    background: var(--Very-dark-blue);
+  }
+  .main { 
+    display: flex;
+    flex-direction: row-reverse;
+    height: 300px;
+    width: 100%;
+  }
+  .header { 
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .header img { 
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+  }
+  .header .header-overlay { 
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+  }
 }
